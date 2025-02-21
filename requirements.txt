@@ -1,0 +1,11 @@
+opencv-python
+scenedetect 
+tenacity 
+azure.core 
+openai
+audioop-lts
+streamlit
+weasyprint
+pango
+dotenv
+PyPDF2
