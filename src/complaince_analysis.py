@@ -87,6 +87,7 @@ def main():
                         step3_prompt = f"""
                         Based on the policy comparison, assign a risk level (Low, Medium, High) for each compliance area.
                         Mention any ambiguous clauses or missing details. Then provide final risk indicators.
+                        Output your response in a markdown table format.
                         """
                         messages_step3 = [
                             {"role": "system", "content": "You are a helpful compliance assistant."},
